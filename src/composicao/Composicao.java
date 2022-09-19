@@ -15,7 +15,14 @@ public class Composicao {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // primeira Forma de charmar os Construtores
+        /*
+        Carro carro = new Carro();
+        Carro carro2 = new Carro(2000);
+*/
+        
+        Carro carro3 = new Carro();
+        carro3.ligarCarro(2000);
     }
     
 }

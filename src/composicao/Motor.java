@@ -11,6 +11,14 @@ package composicao;
  */
 public class Motor {
     private int potencia;
+    
+    public Motor(){
+        potencia = 1000;//Valor Pradrão
+    }
+    
+    public Motor(int potencia){
+        this.potencia=potencia;
+    }
 
     /**
      * @return the potencia
